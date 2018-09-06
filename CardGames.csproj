@@ -172,7 +172,9 @@
     <None Include="Resources\SwinGame.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\images\cardsBoard.png" />
+    <None Include="Resources\images\cardsBoard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\images\1-tacithanddev.jpg" />
   </ItemGroup>
   <Target Name="CopyFiles">
