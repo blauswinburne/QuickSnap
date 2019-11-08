@@ -12,7 +12,8 @@ namespace CardGames.GameLogic
 	/// </summary>
 	public class Deck
 	{
-        private readonly Card[] 	_cards = new Card[52];
+        private readonly Card[] 	
+		_cards = new Card[52];
         private int 	_topCard;
      
 		/// <summary>
